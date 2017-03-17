@@ -24,9 +24,22 @@ module.exports = function(grunt) {
                     }
                 }
             }
+        },watch: {
+            sass: {
+                // We watch and compile sass files as normal but don't live reload here
+                files: ['sass/*.scss'],
+                tasks: ['sass']
+            },
+            configFiles: {
+                files: [ 'Gruntfile.js' ],
+                options: {
+                    reload: true
+                }
+            }
         }
     });
 grunt.loadNpmTasks('grunt-sass');
 grunt.loadNpmTasks('grunt-contrib-connect');
-grunt.registerTask('default',['sass','connect']);
+grunt.loadNpmTasks('grunt-contrib-watch');
+grunt.registerTask('default',['sass','connect','watch']);
 };
