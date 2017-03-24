@@ -12,4 +12,31 @@ img {
 .right-page {
   width: 70%; }
 
+.experience-list {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center; }
+  .experience-list-item {
+    width: 50%; }
+
+.image-list {
+  display: flex;
+  flex-wrap: wrap; }
+  .image-list-item {
+    width: 33%; }
+
+.form {
+  text-align: center; }
+  .form input {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 50%; }
+  .form textarea {
+    width: 50%;
+    margin: 0 auto; }
+  .form .send {
+    margin: 0 auto;
+    width: 10%; }
+
 /*# sourceMappingURL=main.css.map */
