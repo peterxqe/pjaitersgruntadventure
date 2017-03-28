@@ -1,0 +1,91 @@
+body{
+  display: flex;
+  flex-direction: row;
+}
+
+img{
+  height: 200px;
+  width: 80%;
+}
+
+.menu{
+  width: 25%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: aqua;
+  .menu-pic{
+      height: 200px;
+      width: 100%;
+    margin: 0;
+    }
+  img{
+    height: 50px;
+    width: 50px;
+    margin: 0 1%;
+  }
+}
+
+.nav-list{
+  padding: 0;
+  &-item{
+    list-style-type: none;
+  }
+}
+
+.logos{
+  display: flex;
+  justify-content: center;
+
+}
+
+.right-page{
+  width: 70%;
+  background-color: aquamarine;
+}
+
+.skillbar{
+  p{
+    margin: 0;
+  }
+}
+
+.experience{
+  text-align: center;
+  &-list{
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+
+    &-item{
+      width: 50%;
+
+    }
+  }
+}
+
+.image-list{
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  &-item{
+    width:33%;
+  }
+}
+.form{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  input{
+    width: 50%;
+  }
+  textarea{
+    width: 50%;
+  }
+  .send{
+    width: 10%;
+    margin: 0 45%;
+  }
+}
