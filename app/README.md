@@ -1,2 +1,2 @@
 # pjaitersgruntadventure
-yo
+#wordpress questions
