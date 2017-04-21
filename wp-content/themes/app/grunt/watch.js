@@ -3,8 +3,8 @@ module.exports = {
             files: ['sass/**/*.scss'],
             tasks: ['sass']
         },
-        html: {
-        files: ['**/*.html']
+        php: {
+        files: ['**/*.php']
     },configFiles: {
         files: [ 'Gruntfile.js' ],
         options: {

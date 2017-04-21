@@ -5,7 +5,7 @@ module.exports = {
         server: {
             options: {
                 open: true,
-                port: 8000,
+                port: 8080,
                 base: 'local'
             }
         }
