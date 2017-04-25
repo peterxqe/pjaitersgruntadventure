@@ -1,2 +1,11 @@
-@import "mixin.scss";
-@import 'main.scss';
+// Mixins
+
+@import "mixins/_flex";
+
+// Modules
+
+@import "modules/_vars";
+
+// Partials
+
+@import 'partials/_main';

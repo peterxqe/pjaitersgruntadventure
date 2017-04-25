@@ -1,0 +1,14 @@
+@mixin flex($flex) {
+  display: flex;
+  @if $flex == 'wrap'{
+  flex-wrap: wrap;
+  }
+
+  @if $flex == 'column'{
+    flex-direction: column;
+  }
+
+  @if $flex == 'row'{
+    flex-direction: row;
+  }
+}
